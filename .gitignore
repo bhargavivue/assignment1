@@ -1,0 +1,27 @@
+# Ignore Python bytecode files
+*.pyc
+__pycache__/
+
+# Ignore environment files
+.env
+
+# Ignore virtual environments
+venv/
+.venv/
+
+# Ignore FastAPI auto-generated files
+.pytest_cache/
+.mypy_cache/
+
+# Ignore IDE-specific files
+.vscode/
+.idea/
+
+# Ignore log files
+*.log
+
+# Ignore database files
+*.db
+
+# Ignore macOS system files
+.DS_Store
